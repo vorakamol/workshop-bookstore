@@ -1,10 +1,19 @@
 package model;
 
+import java.util.List;
+
 public class Basket {
     private int id;
     private String description;
-    private int number;
+    private int quantity;
     private int total;
+    private List<Book> books;
+
+    public Basket(Customer customer) {
+    }
+
+    public void addBooks(List<Book> books) {
+    }
 
     public int getId() {
         return id;
@@ -23,11 +32,11 @@ public class Basket {
     }
 
     public int getNumber() {
-        return number;
+        return quantity;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setNumber(int quantity) {
+        this.quantity = quantity;
     }
 
     public int getTotal() {

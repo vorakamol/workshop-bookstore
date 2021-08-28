@@ -3,7 +3,7 @@ package model;
 public class Stock {
     private int id;
     private String name;
-    private int number;
+    private int quantity;
 
     public int getId() {
         return id;
@@ -22,10 +22,10 @@ public class Stock {
     }
 
     public int getNumber() {
-        return number;
+        return quantity;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setNumber(int quantity) {
+        this.quantity = quantity;
     }
 }
