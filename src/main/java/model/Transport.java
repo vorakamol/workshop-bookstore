@@ -1,10 +1,9 @@
-package demo;
+package model;
 
-public class Book {
+public class Transport {
     private int id;
     private String name;
     private int price;
-    private String store;
 
     public int getId() {
         return id;
@@ -28,13 +27,5 @@ public class Book {
 
     public void setPrice(int price) {
         this.price = price;
-    }
-
-    public String getStore() {
-        return store;
-    }
-
-    public void setStore(String store) {
-        this.store = store;
     }
 }
